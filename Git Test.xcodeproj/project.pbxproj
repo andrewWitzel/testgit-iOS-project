@@ -14,6 +14,7 @@
 		2966C8281A605B9B00D76DFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2966C8271A605B9B00D76DFA /* Images.xcassets */; };
 		2966C82B1A605B9B00D76DFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2966C8291A605B9B00D76DFA /* LaunchScreen.xib */; };
 		2966C8371A605B9B00D76DFA /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966C8361A605B9B00D76DFA /* Git_TestTests.m */; };
+		2966C8421A605F8B00D76DFA /* WITtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2966C8411A605F8B00D76DFA /* WITtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2966C8301A605B9B00D76DFA /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2966C8351A605B9B00D76DFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2966C8361A605B9B00D76DFA /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		2966C8401A605F8B00D76DFA /* WITtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WITtest.h; sourceTree = "<group>"; };
+		2966C8411A605F8B00D76DFA /* WITtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WITtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		2966C80E1A605B9A00D76DFA = {
 			isa = PBXGroup;
 			children = (
+				2966C8401A605F8B00D76DFA /* WITtest.h */,
+				2966C8411A605F8B00D76DFA /* WITtest.m */,
 				2966C8191A605B9B00D76DFA /* Git Test */,
 				2966C8331A605B9B00D76DFA /* Git TestTests */,
 				2966C8181A605B9A00D76DFA /* Products */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2966C8421A605F8B00D76DFA /* WITtest.m in Sources */,
 				2966C8231A605B9B00D76DFA /* ViewController.m in Sources */,
 				2966C8201A605B9B00D76DFA /* AppDelegate.m in Sources */,
 				2966C81D1A605B9B00D76DFA /* main.m in Sources */,
